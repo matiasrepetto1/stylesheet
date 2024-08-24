@@ -3,3 +3,8 @@
 :host{
   --fonts-default: 'Be+Vietnam+Pro', normal;
 }
+
+/* Change the background of the chat */
+.vfrc-chat {
+  background-color: #000000; 
+}
