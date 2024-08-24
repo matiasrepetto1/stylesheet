@@ -6,5 +6,35 @@
 
 /* Change the background of the chat */
 .vfrc-chat {
-  background-color: #000000; 
+  background-color: #1A1A1A; 
+}
+
+/* Change the color of the assistant's message bubbles */
+.vfrc-system-response .vfrc-message {
+  background-color: #131315; /* Assistant message bubble color */
+  color: #ffffff; /* Assistant message text color */
+}
+
+/* Change the color of the user's message bubbles */
+.vfrc-user-response .vfrc-message {
+  background-color: #1E291D; /* User message bubble color */
+  color: #ffffff; /* User message text color */
+}
+
+/* Change the font color for other text in the chat */
+.vfrc-chat--session-time,
+.vfrc-chat--status,
+.vfrc-timestamp {
+  color: #999999; /* Replace with your desired font color */
+}
+
+/* Change button colors */
+.vfrc-button {
+  background-color: #4caf50; /* Button background color */
+  color: #ffffff; /* Button text color */
+}
+
+.vfrc-chat-input--button {
+  background-color: #1E291D; /* Input button background color */
+  color: #65CF50; /* Input button text color */
 }
