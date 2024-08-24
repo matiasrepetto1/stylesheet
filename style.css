@@ -11,7 +11,7 @@
 
 /* Change the color of the assistant's message bubbles */
 .vfrc-system-response .vfrc-message {
-  background-color: #1A1A1A; /* Assistant message bubble color */
+  background-color: #2b2b2b; /* Assistant message bubble color */
   color: #ffffff; /* Assistant message text color */
 }
 
