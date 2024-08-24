@@ -54,4 +54,15 @@
 .vfrc-assistant-info--description {
   color: #656567; /* Replace with your desired description color */
 }
+/* Change the input field background color and text color */
+.vfrc-input {
+  background-color: #1A1A1A; /* Set the background color to #1A1A1A */
+  color: #FFFFFF; /* Set the text color to #FFFFFF */
+}
+
+/* Change the placeholder text color */
+.vfrc-input::placeholder {
+  color: #FFFFFF; /* Optional: Set a lighter color for the placeholder text */
+}
+
 
