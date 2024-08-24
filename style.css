@@ -6,12 +6,12 @@
 
 /* Change the background of the chat */
 .vfrc-chat {
-  background-color: #1A1A1A; 
+  background-color: #131315; 
 }
 
 /* Change the color of the assistant's message bubbles */
 .vfrc-system-response .vfrc-message {
-  background-color: #131315; /* Assistant message bubble color */
+  background-color: #1A1A1A; /* Assistant message bubble color */
   color: #ffffff; /* Assistant message text color */
 }
 
@@ -38,3 +38,20 @@
   background-color: #1E291D; /* Input button background color */
   color: #65CF50; /* Input button text color */
 }
+
+/* Change the header background color */
+.vfrc-header {
+  background-color: #1A1A1A; /* Replace with your desired header background color */
+  color: #ffffff; /* Text color in the header */
+}
+
+/* Change the title color in the assistant info */
+.vfrc-assistant-info--title {
+  color: #ffffff; /* Replace with your desired title color */
+}
+
+/* Change the description color in the assistant info */
+.vfrc-assistant-info--description {
+  color: #656567; /* Replace with your desired description color */
+}
+
