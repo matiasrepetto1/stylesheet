@@ -1,24 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans");
 
 :host{
-  --fonts-default: 'Be+Vietnam+Pro', normal;
+  --fonts-default: 'Plus+Jakarta+Sans'
 }
 
 /* Change the background of the chat */
 .vfrc-chat {
-  background-color: #040405; 
+  background-color: #FFFFFF; 
 }
 
 /* Change the color of the assistant's message bubbles */
 .vfrc-system-response .vfrc-message {
-  background-color: #2b2b2b; /* Assistant message bubble color */
-  color: #ffffff; /* Assistant message text color */
+  background-color: #EEEEEE; /* Assistant message bubble color */
+  color: #333333; /* Assistant message text color */
 }
 
 /* Change the color of the user's message bubbles */
 .vfrc-user-response .vfrc-message {
-  background-color: #1E291D; /* User message bubble color */
-  color: #ffffff; /* User message text color */
+  background-color: #c5d3f7; /* User message bubble color */
+  color: #0847f7; /* User message text color */
 }
 
 /* Change the font color for other text in the chat */
@@ -30,8 +30,8 @@
 
 /* Change button colors */
 .vfrc-button {
-  background-color: #4caf50; /* Button background color */
-  color: #ffffff; /* Button text color */
+  background-color: #0847f7; /* Button background color */
+  color: #333333; /* Button text color */
 }
 
 .vfrc-chat-input--button {
@@ -41,22 +41,22 @@
 
 /* Change the header background color */
 .vfrc-header {
-  background-color: #1A1A1A; /* Replace with your desired header background color */
-  color: #ffffff; /* Text color in the header */
+  background-color: #ffffff; /* Replace with your desired header background color */
+  color: #333333; /* Text color in the header */
 }
 
 /* Change the title color in the assistant info */
 .vfrc-assistant-info--title {
-  color: #ffffff; /* Replace with your desired title color */
+  color: #1E291D; /* Replace with your desired title color */
 }
 
 /* Change the description color in the assistant info */
 .vfrc-assistant-info--description {
-  color: #656567; /* Replace with your desired description color */
+  color: #333333; /* Replace with your desired description color */
 }
 /* Change the input field background color and text color */
 .vfrc-input {
-  background-color: #1A1A1A; /* Set the background color to #1A1A1A */
+  background-color: #ffffff; /* Set the background color to #1A1A1A */
 }
 
 /* Change the placeholder text color */
